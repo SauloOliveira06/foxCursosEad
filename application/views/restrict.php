@@ -45,8 +45,6 @@
 			</div>
 		</div>
 
-		<br/><br/>
-
 		<div class="container">
 			<ul class="nav nav-tabs">
 				<li class="nav-item"><a href="#tab_courses" class="nav-link active" role="tab" data-toggle="tab">Cursos</a></li>
@@ -67,7 +65,7 @@
 									<th class="dt-center">Nome</th>
 									<th class="dt-center no-sort">Imagem</th>
 									<th class="dt-center">Duração</th>
-									<th class="no-sort">Descrição</th>
+									<th class="dt-center">Descrição</th>
 									<th class="dt-center no-sort">Ações</th>
 								</tr>
 							</thead>

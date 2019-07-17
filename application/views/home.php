@@ -208,28 +208,32 @@
 
 				</div>
 
-				<!-- MODAL DE USUÁRIOS DE DRUGS -->
+				<!-- MODAL DOS CURSOS DA HOME -->
 
 				<div class="modal fade" data-backdrop="static" id="course_<?=$course["course_id"]?>">
 				    <div class="modal-dialog modal-dialog-centered">
 				      	<div class="modal-content">
-
-					        <!-- Modal HEADER -->
-					        <div class="modal-body seminor-login-modal-body">
-					        	<h5 class="modal-title text-center"><?=$course["course_name"]?></h5><br/>
-					        	
-					        </div>
-
-					        <div class="modal-body">
-					        	<img src="<?=base_url().$course["course_img"]?>" alt="img" class="img-responsive center-block" style="width: 300px; height: 200px;">
-					        	<div class="modal-works"><span>Duração: <?=intval($course["course_duration"])?> (h)</span></div>
-					        	<p><?=$course["course_description"]?></p>
-					        </div>
-
-					        <div class="modal-footer">
-					        	<button type="button" class="close" data-dismiss="modal">
+				      		<div class="modal-header">
+				      			<h4 class="modal-title text-center"><?=$course["course_name"]?></h4>
+				      			<button type="button" class="close" data-dismiss="modal">
 							        <span><i class="fa fa-times-circle" aria-hidden="true"></i></span>
 							    </button>
+				      		</div>
+
+				      		<div class="modal-body">
+				      			<div>
+					        		<p><?=$course["course_description"]?></p>	
+					        	</div>
+				      		</div>
+
+				      		<center>
+					       		<img src="<?=base_url().$course["course_img"]?>" alt="img" class="img-responsive center-block" style="width: 300px; height: 200px;">
+					        </center><br/>
+
+					        <div class="modal-footer">
+					        	<div class="modal-works">
+					        		<span>Duração: <?=intval($course["course_duration"])?> (h)</span>
+					        	</div>
 					        </div>
 				    	</div>
 					</div>
